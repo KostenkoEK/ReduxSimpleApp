@@ -110,7 +110,7 @@ class BaseScreen extends StatelessWidget {
               color: Colors.blue.withOpacity(0.6),
               child: Text(
                   vm.isListScreen ?
-                  'Список' : 'Диаграмма'
+                  'Список (Всего - ${vm.items.length})' : 'Диаграмма'
               ),
             ),
           ),
